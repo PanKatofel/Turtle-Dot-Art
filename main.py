@@ -6,6 +6,7 @@ import colorgram
 colors = colorgram.extract("example.jpg", 6)
 bob = Turtle()
 bob.penup()
+bob.hideturtle()
 bob.speed(0)
 
 screen = Screen()
